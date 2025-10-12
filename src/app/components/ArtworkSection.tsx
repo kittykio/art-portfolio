@@ -7,10 +7,6 @@ import { ArtworkType } from '@/types/ArtworkType';
 import ArtworkModal from '@/app/artwork/components/ArtworkModal';
 import ArtworkItem from '../../components/ArtworkItem';
 
-export const runtime = 'nodejs';
-
-export const dynamic = 'force-dynamic';
-
 interface MarqueeRowProps {
   artworks: ArtworkType[];
   likeItemList: ArtworkType[];
