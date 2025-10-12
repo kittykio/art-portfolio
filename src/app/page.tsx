@@ -8,6 +8,10 @@ import GetToKnowMeSection from '@/app/components/GetToKnowMeSection';
 import { getAllArtworks } from '@/lib/artworkApi';
 import IntroSection from '@/app/components/IntroSection';
 
+export const runtime = 'nodejs';
+
+export const dynamic = 'force-dynamic';
+
 const HomePage = async () => {
   const posts = await getAllPosts();
   const artworks = await getAllArtworks();
