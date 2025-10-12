@@ -2,7 +2,8 @@ import { getAllPosts, getSlugs, getPostDetail } from '@/lib/blogApi';
 import PostDetail from '@/app/blog/components/PostDetail';
 import type { PostDetailType, PostType } from '@/types/PostType';
 
-// export const runtime = 'nodejs';
+export const runtime = 'nodejs';
+
 // export const dynamic = 'force-static';
 // export const dynamic = 'force-dynamic';
 
