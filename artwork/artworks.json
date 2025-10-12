@@ -1,0 +1,201 @@
+[
+  {
+    "id": 1,
+    "src": "/artwork/artwork-1.png",
+    "title": "Dreamscape",
+    "description": "This is a sample description of the artwork where I plan to write quotes at. This is a sample description of the artwork where I plan to write quotes at.",
+    "medium": "Digital Painting",
+    "year": 2025,
+    "category": "painting",
+    "tags": ["colorful", "fantasy", "abstract", "cute", "city", "design", "dreamlike"]
+  },
+  {
+    "id": 2,
+    "src": "/artwork/artwork-2.png",
+    "title": "Urban Sketch",
+    "medium": "Ink on Paper",
+    "year": 2024,
+    "category": "doodle-and-sketch",
+    "tags": ["monochrome", "city"]
+  },
+  {
+    "id": 3,
+    "src": "/artwork/artwork-3.png",
+    "title": "Character Concept",
+    "medium": "Digital Illustration",
+    "year": 2025,
+    "category": "character-design",
+    "tags": ["character", "concept"]
+  },
+  {
+    "id": 4,
+    "src": "/artwork/artwork-4.png",
+    "title": "Panel Study",
+    "medium": "Digital Comic",
+    "year": 2024,
+    "category": "comic",
+    "tags": ["storytelling", "sequential"]
+  },
+  {
+    "id": 5,
+    "src": "/artwork/artwork-5.png",
+    "title": "Botanical Linework",
+    "medium": "Pen Drawing",
+    "year": 2023,
+    "category": "doodle-and-sketch",
+    "tags": ["nature", "lineart"]
+  },
+  {
+    "id": 6,
+    "src": "/artwork/artwork-6.png",
+    "title": "Merch Design A",
+    "medium": "Digital Vector",
+    "year": 2025,
+    "category": "merch",
+    "tags": ["sticker", "minimal"]
+  },
+  {
+    "id": 7,
+    "src": "/artwork/artwork-7.png",
+    "title": "Merch Design B",
+    "medium": "Digital Vector",
+    "year": 2025,
+    "category": "merch",
+    "tags": ["print", "bold"]
+  },
+  {
+    "id": 8,
+    "src": "/artwork/artwork-8.png",
+    "title": "Daily Doodle",
+    "medium": "Pencil Sketch",
+    "year": 2023,
+    "category": "doodle-and-sketch",
+    "tags": ["gesture", "quick"]
+  },
+  {
+    "id": 9,
+    "src": "/artwork/artwork-9.png",
+    "title": "Atmospheric Study",
+    "medium": "Digital Painting",
+    "year": 2024,
+    "category": "painting",
+    "tags": ["mood", "environment"]
+  },
+  {
+    "id": 10,
+    "src": "/artwork/artwork-10.png",
+    "title": "Character Portrait",
+    "medium": "Digital Illustration",
+    "year": 2025,
+    "category": "character-design",
+    "tags": ["portrait", "stylized"]
+  },
+  {
+    "id": 11,
+    "src": "/artwork/artwork-11.png",
+    "title": "Fantasy Panel",
+    "medium": "Digital Comic",
+    "year": 2024,
+    "category": "comic",
+    "tags": ["fantasy", "sequential"]
+  },
+  {
+    "id": 12,
+    "src": "/artwork/artwork-12.png",
+    "title": "Gesture Flow",
+    "medium": "Ink on Paper",
+    "year": 2023,
+    "category": "doodle-and-sketch",
+    "tags": ["anatomy", "movement"]
+  },
+  {
+    "id": 13,
+    "src": "/artwork/artwork-13.png",
+    "title": "Surreal Concept",
+    "medium": "Digital Painting",
+    "year": 2025,
+    "category": "painting",
+    "tags": ["surreal", "dreamlike"]
+  },
+  {
+    "id": 14,
+    "src": "/artwork/artwork-14.png",
+    "title": "Sticker Pack",
+    "medium": "Digital Illustration",
+    "year": 2025,
+    "category": "merch",
+    "tags": ["fun", "collectible"]
+  },
+  {
+    "id": 15,
+    "src": "/artwork/artwork-15.png",
+    "title": "Mini Comic",
+    "medium": "Digital Comic",
+    "year": 2024,
+    "category": "comic",
+    "tags": ["humor", "story"]
+  },
+  {
+    "id": 16,
+    "src": "/artwork/artwork-16.png",
+    "title": "Character Lineup",
+    "medium": "Digital Illustration",
+    "year": 2025,
+    "category": "character-design",
+    "tags": ["character", "design"]
+  },
+  {
+    "id": 17,
+    "src": "/artwork/artwork-17.png",
+    "title": "Nature Study",
+    "medium": "Watercolor",
+    "year": 2023,
+    "category": "painting",
+    "tags": ["plants", "landscape"]
+  },
+  {
+    "id": 18,
+    "src": "/artwork/artwork-18.png",
+    "title": "Comic Strip",
+    "medium": "Ink & Digital",
+    "year": 2024,
+    "category": "comic",
+    "tags": ["sequential", "storytelling"]
+  },
+  {
+    "id": 19,
+    "src": "/artwork/artwork-19.png",
+    "title": "Abstract Doodle",
+    "medium": "Marker & Ink",
+    "year": 2025,
+    "category": "doodle-and-sketch",
+    "tags": ["abstract", "playful"]
+  },
+  {
+    "id": 20,
+    "src": "/artwork/artwork-20.png",
+    "title": "Illustrated Poster",
+    "medium": "Digital Painting",
+    "year": 2025,
+    "category": "painting",
+    "tags": ["poster", "vibrant"]
+  },
+  {
+    "id": 21,
+    "src": "/artwork/artwork-21.png",
+    "title": "Character Study B",
+    "medium": "Digital Illustration",
+    "year": 2025,
+    "category": "character-design",
+    "tags": ["character", "dynamic"]
+  },
+  {
+    "id": 22,
+    "src": "/artwork/artwork-22.png",
+    "title": "Merch Design C",
+    "medium": "Digital Vector",
+    "year": 2025,
+    "category": "merch",
+    "tags": ["collectible", "cute"]
+  }
+]

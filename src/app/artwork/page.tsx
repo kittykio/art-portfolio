@@ -1,0 +1,11 @@
+import ArtworkPageClient from '@/app/artwork/components/ArtworkPageClient';
+import { getAllArtworks } from '@/lib/artworkApi';
+import { ArtworkType } from '@/types/ArtworkType';
+
+const ArtworkPage = async () => {
+  const artworks: ArtworkType[] = await getAllArtworks();
+
+  return <ArtworkPageClient initialArtworks={artworks} />;
+};
+
+export default ArtworkPage;

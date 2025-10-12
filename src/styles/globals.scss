@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.expanding_underline {
+  &::after {
+    content: '';
+    width: 0%;
+    height: 1px;
+    background-color: var(--bw);
+    display: block;
+    margin-top: 2px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 0.2s linear;
+  }
+  &:hover {
+    &::after {
+      width: 100%;
+    }
+  }
+}
+
+.footnotes {
+  ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    scroll-margin-top: 108px;
+  }
+}
+
+ul li:has(input[type='checkbox']) {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
