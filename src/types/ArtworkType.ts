@@ -15,5 +15,3 @@ export type ArtworkType = {
   modifiedDate: Date;
   likesPerUser?: number;
 };
-
-// export type ArtworkLikeType = ArtworkType & { likesPerUser?: number };

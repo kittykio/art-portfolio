@@ -3,6 +3,7 @@ import { PostCategoryType } from './PostCategoryType';
 
 export type PostType = {
   id: number;
+  date: string;
   slug: string[];
   like: number;
   title: string;

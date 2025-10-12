@@ -36,6 +36,8 @@ const aliases = { dockerfile: 'docker' };
 
 // --- Frontmatter Type ---
 type MDXFrontmatter = {
+  id: number;
+  date: string;
   title: string;
   description: string;
   tags: string[];
@@ -93,6 +95,8 @@ export const getPostDetail = async (slug: string[]): Promise<PostDetailType> => 
     },
   });
 
+  const idRaw = frontmatter.id;
+  const date = frontmatter.date;
   const title = frontmatter.title;
   const description = frontmatter.description;
   const category = Array.isArray(frontmatter.category)
@@ -105,13 +109,15 @@ export const getPostDetail = async (slug: string[]): Promise<PostDetailType> => 
   const createdLocaleDate = createdDate.toLocaleDateString();
   const modifiedDate = getModifiedDate(file);
 
-  const id = Number(dateToTimestampString(createdDate));
+  // const id = Number(dateToTimestampString(createdDate));
+  const id = Number(`1${idRaw.toString().padStart(4, '0')}`);
 
   const doc = (await searchLikeById({ _id: id })) as IBlogLikeDocument;
   const like = doc?.like || 0;
 
   const post: PostDetailType = {
     id,
+    date,
     slug,
     like,
     title,

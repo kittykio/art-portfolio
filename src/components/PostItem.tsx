@@ -59,7 +59,7 @@ const PostItem: FC<PostItemProps> = ({ index, post, postItemList, setPostItemLis
             sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
           />
 
-          <p className="text-sm text-gray-500">{post.createdLocaleDate}</p>
+          <p className="text-sm text-gray-500">{post.date}</p>
           <p className="text-lg font-bodyBold text-dglg-900">{post.title}</p>
           <p className="text-sm">{post.description}</p>
 
