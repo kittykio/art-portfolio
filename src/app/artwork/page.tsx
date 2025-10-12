@@ -4,6 +4,8 @@ import { ArtworkType } from '@/types/ArtworkType';
 
 export const runtime = 'nodejs';
 
+export const dynamic = 'force-dynamic';
+
 const ArtworkPage = async () => {
   const artworks: ArtworkType[] = await getAllArtworks();
 
