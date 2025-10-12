@@ -6,8 +6,6 @@ export const runtime = 'nodejs';
 
 export const dynamic = 'force-dynamic';
 
-// export const dynamic = 'force-static';
-
 interface Props {
   params: { slug: string[] };
 }
