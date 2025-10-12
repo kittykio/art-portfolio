@@ -6,6 +6,10 @@ import { PostType } from '@/types/PostType';
 import SectionWrapper from '@/components/SectionWrapper';
 import PostItem from '../../components/PostItem';
 
+export const runtime = 'nodejs';
+
+export const dynamic = 'force-dynamic';
+
 type ColumnProps = {
   posts: PostType[];
   reverse?: boolean;
