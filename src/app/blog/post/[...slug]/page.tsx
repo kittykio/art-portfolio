@@ -4,8 +4,9 @@ import type { PostDetailType, PostType } from '@/types/PostType';
 
 export const runtime = 'nodejs';
 
+export const dynamic = 'force-dynamic';
+
 // export const dynamic = 'force-static';
-// export const dynamic = 'force-dynamic';
 
 interface Props {
   params: { slug: string[] };
