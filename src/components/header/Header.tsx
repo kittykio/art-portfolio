@@ -57,7 +57,7 @@ const Header = () => {
       {/* Logo link, navigates to the homepage. */}
       <Link href="/" className="flex gap-4 items-center">
         <div className="w-[36px] h-[36px]">
-          <LogoCircle />
+          <LogoFill />
         </div>
         <p className="text-[30px] font-flashy text-dglg-900">kitty kio</p>
       </Link>

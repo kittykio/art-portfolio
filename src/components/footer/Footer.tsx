@@ -8,7 +8,7 @@ import { SiBuymeacoffee } from 'react-icons/si';
 import { Magnetic } from '../Magnetic';
 import Link from 'next/link';
 import DisperseText from '../DisperseText';
-import { LogoCircle } from '../Logo';
+import { LogoCircle, LogoFill } from '../Logo';
 
 const Footer = () => {
   const container = useRef(null);
@@ -39,7 +39,7 @@ const Footer = () => {
             </p>
 
             <div className="w-[128px] h-[128px]">
-              <LogoCircle />
+              <LogoFill />
             </div>
 
             {/* Buy Me a Coffee button */}
