@@ -9,7 +9,7 @@ const LoadingSkeleton = () => {
       variants={staggerContainer(0.5, 0.5)}
       initial="hidden"
       animate="show"
-      className="flex flex-col items-center justify-center min-h-[calc(100vh-64px)] !max-w-none w-screen px-4 pb-[400px]"
+      className="flex flex-col items-center justify-center min-h-[calc(100vh-64px)] w-full h-full overflow-hidden px-4 mb-[400px]"
     >
       {/* Header shimmer */}
       <motion.div
@@ -25,7 +25,7 @@ const LoadingSkeleton = () => {
         {Array.from({ length: 8 }).map((_, i) => (
           <div
             key={i}
-            className="flex flex-col items-center justify-center space-y-3 bg-lgdg-100 rounded-2xl overflow-hidden shadow-sm p-3 animate-pulse"
+            className="flex flex-col items-center justify-center space-y-3 bg-lgdg-100 rounded-2xl overflow-hidden shadow-md p-3 animate-pulse"
           >
             <div className="w-full aspect-square bg-lgdg-300 rounded-lg" />
             <div className="h-4 w-3/4 bg-lgdg-300 rounded-md" />

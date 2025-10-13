@@ -46,7 +46,7 @@ const IntroSection = () => {
   const rest = para.slice(1);
 
   return (
-    <SectionWrapper className="w-full !max-w-none flex justify-center my-24 py-24 md:my-48 md:py-48 text-gray-500 text-lg md:text-3xl leading-[1.5] font-bodyBold px-4">
+    <SectionWrapper className="w-full max-w-screen flex justify-center my-24 py-24 md:my-48 md:py-48 text-gray-500 text-lg md:text-3xl leading-[1.5] font-bodyBold px-4">
       <div ref={containerRef} className="max-w-3xl">
         <p className="relative">
           <span className="float-left text-7xl md:text-9xl leading-[1.5] mr-8 font-heading text-dglg-900 font-bodyBold">

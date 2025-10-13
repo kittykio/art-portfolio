@@ -24,7 +24,7 @@ const HeroScroller = () => {
 const HeroSection = () => {
   return (
     <LazyMotion features={domAnimation}>
-      <SectionWrapper className="!max-w-none w-screen relative flex flex-col items-center justify-center text-center min-h-[calc(100vh-64px)] px-4">
+      <SectionWrapper className="max-w-screen w-full relative flex flex-col items-center justify-center text-center min-h-[calc(100vh-64px)] px-4">
         <PixelTrailBackground color="random" />
 
         <div className="flex flex-col items-center z-10 space-y-4">

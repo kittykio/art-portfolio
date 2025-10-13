@@ -52,7 +52,7 @@ const LoadingSpinner = () => {
   return (
     <div
       ref={containerRef}
-      className="flex flex-col items-center justify-center min-h-[calc(100vh-64px)] w-screen bg-wb-blur-50 backdrop-blur-md relative overflow-hidden px-4 pb-[400px]"
+      className="flex flex-col items-center justify-center min-h-[calc(100vh-64px)] w-full h-full overflow-hidden px-4 mb-[400px]"
     >
       {/* Gradient background */}
       <motion.div className="absolute inset-0 pointer-events-none" style={{ background }} />

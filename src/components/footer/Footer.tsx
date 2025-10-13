@@ -3,13 +3,12 @@
 import { useRef } from 'react';
 import { useScroll, motion, useTransform } from 'framer-motion';
 import General from './General';
-import Image from 'next/image';
 import Connect from '@/components/footer/Connect';
 import { SiBuymeacoffee } from 'react-icons/si';
 import { Magnetic } from '../Magnetic';
 import Link from 'next/link';
 import DisperseText from '../DisperseText';
-import { LogoCircle, LogoFill } from '../Logo';
+import { LogoCircle } from '../Logo';
 
 const Footer = () => {
   const container = useRef(null);

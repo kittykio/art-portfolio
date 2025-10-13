@@ -24,6 +24,7 @@ import ScrollSlider from '@/components/scroll-slider/ScrollSlider';
 import ThemeContextProvider from '@/components/ThemeContext';
 import { ThemeProvider } from 'next-themes';
 import connectToMongoDB from '@/lib/db';
+import LoadingSpinner from '@/components/LoadingSpinner';
 
 const GA_TAG_ID = process.env.NEXT_PUBLIC_GA_ID || '';
 
@@ -86,22 +87,22 @@ const RootLayout = async ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${heading.variable} ${body.variable} ${bodyBold.variable} ${flashy.variable} ${drool.variable} ${awkward.variable} ${spacey.variable} ${playful.variable} ${saucy.variable} ${loud.variable} font-body bg-bg min-h-screen flex flex-col`}
+        className={`${heading.variable} ${body.variable} ${bodyBold.variable} ${flashy.variable} ${drool.variable} ${awkward.variable} ${spacey.variable} ${playful.variable} ${saucy.variable} ${loud.variable}`}
       >
         <ThemeProvider attribute="class" defaultTheme="system">
           <ThemeContextProvider>
-            {/* Header */}
-            <Header />
+            <div className="font-body bg-bg min-h-screen flex flex-col">
+              {/* Header */}
+              <Header />
 
-            {/* Main content fills remaining space */}
-            <main className="flex-1 w-full min-h-[calc(100vh-64px)] flex flex-col items-center justify-start mt-16">
-              <ScrollSlider>{children}</ScrollSlider>
-            </main>
-
-            {/* Footer always at bottom */}
-            <Footer />
+              {/* Main content fills remaining space */}
+              <main className="flex-1 w-full min-h-[calc(100vh-64px)] flex flex-col items-center mt-16">
+                <ScrollSlider>{children}</ScrollSlider>
+              </main>
+              {/* Footer always at bottom */}
+              <Footer />
+            </div>
           </ThemeContextProvider>
-
           {GA_TAG_ID && <GoogleAnalytics gaId={GA_TAG_ID} />}
           <VercelAnalytics />
         </ThemeProvider>
