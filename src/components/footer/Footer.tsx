@@ -45,7 +45,7 @@ const Footer = () => {
             {/* Buy Me a Coffee button */}
             <Magnetic>
               <Link
-                href="https://www.buymeLinkcoffee.com/kittykio"
+                href="https://buymeacoffee.com/kittykio"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-2 inline-flex items-center gap-2 px-5 py-2 rounded-full bg-dglg-700 font-playful text-2xl text-lgdg-300 hover:text-gray-100 font-bodyBold hover:bg-flame-500 transition-all shadow-md"
