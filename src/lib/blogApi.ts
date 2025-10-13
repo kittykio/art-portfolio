@@ -110,7 +110,7 @@ export const getPostDetail = async (slug: string[]): Promise<PostDetailType> => 
   const modifiedDate = getModifiedDate(file);
 
   // const id = Number(dateToTimestampString(createdDate));
-  const id = Number(`1${idRaw.toString().padStart(5, '0')}`);
+  const id = Number(`1${idRaw.toString().padStart(9, '0')}`);
 
   const doc = (await searchLikeById({ _id: id })) as IBlogLikeDocument;
   const like = doc?.like || 0;
