@@ -81,24 +81,27 @@ export const metadata: Metadata = {
 export const viewport = 'width=device-width, initial-scale=1';
 
 const RootLayout = async ({ children }: { children: React.ReactNode }) => {
-  // Ensure DB is connected for server components
   await connectToMongoDB();
 
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${heading.variable} ${body.variable} ${bodyBold.variable} ${flashy.variable} ${drool.variable} ${awkward.variable} ${spacey.variable} ${playful.variable} ${saucy.variable} ${loud.variable} font-body bg-bg`}
+        className={`${heading.variable} ${body.variable} ${bodyBold.variable} ${flashy.variable} ${drool.variable} ${awkward.variable} ${spacey.variable} ${playful.variable} ${saucy.variable} ${loud.variable} font-body bg-bg min-h-screen flex flex-col`}
       >
         <ThemeProvider attribute="class" defaultTheme="system">
           <ThemeContextProvider>
-            <main className="flex flex-col w-full max-w-full max-h-full items-center mt-16 text-base text-dglg-700 leading-relaxed">
-              <ScrollSlider>
-                <Header />
-                {children}
-                <Footer />
-              </ScrollSlider>
+            {/* Header */}
+            <Header />
+
+            {/* Main content fills remaining space */}
+            <main className="flex-1 w-full flex flex-col items-center justify-start mt-16">
+              <ScrollSlider>{children}</ScrollSlider>
             </main>
+
+            {/* Footer always at bottom */}
+            <Footer />
           </ThemeContextProvider>
+
           {GA_TAG_ID && <GoogleAnalytics gaId={GA_TAG_ID} />}
           <VercelAnalytics />
         </ThemeProvider>

@@ -15,7 +15,7 @@ const Connect = () => {
       {/* Wrapped email address inside a custom animated button. */}
       <Magnetic>
         <Link href="mailto:itskittykio@gmail.com">
-          <p className="mt-2 inline-flex items-center gap-2 px-5 py-2 rounded-full border border-dglg-700  hover:text-gray-100 font-bodyBold hover:bg-flame-500 transition-all shadow-md">
+          <p className="mt-2 inline-flex items-center gap-2 px-5 py-2 rounded-full border border-dglg-700 hover:border-none hover:text-gray-100 font-bodyBold hover:bg-flame-500 transition-all shadow-md">
             itskittykio@gmail.com
           </p>
         </Link>

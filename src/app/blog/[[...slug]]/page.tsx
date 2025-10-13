@@ -1,6 +1,5 @@
 import { getAllPosts, getPaginatedPostList, getPaginatedPostListByFilter } from '@/lib/blogApi';
 import { PostType } from '@/types/PostType';
-import { Suspense } from 'react';
 import { postCategory } from '@/constants/postCategory';
 import BlogPageClient from '../components/BlogPageClient';
 
@@ -49,15 +48,13 @@ const BlogPage = async ({ params, searchParams }: Props) => {
   const allPosts = await getAllPosts();
 
   return (
-    <Suspense fallback={<>Loading...</>}>
-      <BlogPageClient
-        allPosts={allPosts}
-        posts={posts}
-        activePage={activePage}
-        limit={limit}
-        total={total}
-      />
-    </Suspense>
+    <BlogPageClient
+      allPosts={allPosts}
+      posts={posts}
+      activePage={activePage}
+      limit={limit}
+      total={total}
+    />
   );
 };
 
