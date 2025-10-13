@@ -24,23 +24,22 @@ import ScrollSlider from '@/components/scroll-slider/ScrollSlider';
 import ThemeContextProvider from '@/components/ThemeContext';
 import { ThemeProvider } from 'next-themes';
 import connectToMongoDB from '@/lib/db';
-import LoadingSpinner from '@/components/LoadingSpinner';
 
 const GA_TAG_ID = process.env.NEXT_PUBLIC_GA_ID || '';
 
 export const metadata: Metadata = {
   title: 'Kitty Kio',
-  description: 'A personal blog and portfolio site.',
+  description: 'A personal blog and art portfolio site.',
   keywords: [
     'Artwork',
     'Sketch',
     'Doodle',
     'Illustration',
-    'Next.js',
     'Blog',
     'Portfolio',
-    'React',
-    'Web Development',
+    'Creative Process',
+    'Artistic Journey',
+    'Art Hobbyist',
   ],
   authors: [{ name: 'Kitty Kio', url: 'https://kittykio.com' }],
   creator: 'Kitty Kio',
@@ -59,7 +58,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Kitty Kio',
-    description: 'A personal artwork portfolio and blog site.',
+    description: 'A personal blog and art portfolio site.',
     type: 'website',
     url: 'https://kittykio.com',
     images: [
@@ -74,7 +73,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Kitty Kio',
-    description: 'A personal blog and portfolio site.',
+    description: 'A personal blog and art portfolio site.',
     images: ['https://kittykio.com/og-image.png'],
   },
 };
