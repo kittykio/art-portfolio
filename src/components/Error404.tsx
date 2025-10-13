@@ -15,7 +15,7 @@ const Error404 = () => {
   }, []);
 
   return (
-    <SectionWrapper className="max-w-screen w-full relative flex flex-col items-center justify-center text-center min-h-[calc(100vh-64px)] px-4 pb-[600px]">
+    <SectionWrapper className="max-w-screen w-full relative flex flex-col items-center justify-center text-center min-h-[calc(100vh-64px)] px-4 pb-[500px]">
       <PixelTrailBackground />
       <motion.main
         variants={staggerContainer(0.5, 0.5)}

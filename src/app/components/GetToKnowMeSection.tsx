@@ -132,7 +132,7 @@ const GetToKnowMeSection = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className="flex justify-center items-center flex-wrap gap-16 px-4 mx-auto max-w-3xl overflow-x-hidden"
+        className="flex justify-center items-center flex-wrap gap-16 p-8 mx-auto max-w-3xl overflow-hidden "
       >
         {/* Grid of cards */}
         {cards.map((c, i) => (

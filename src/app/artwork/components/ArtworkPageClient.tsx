@@ -27,7 +27,7 @@ const ArtworkPageClient = ({ initialArtworks }: ArtworkPageClientProps) => {
   }, []);
 
   return (
-    <SectionWrapper title="Artwork" className="px-4 max-w-7xl mx-auto pb-[700px]">
+    <SectionWrapper title="Artwork" className="px-4 max-w-7xl mx-auto pb-[700px] mt-[100px]">
       <ArtworkFilter artworks={initialArtworks} onFilterChange={handleFilterChange} />
 
       <ArtworkList artworks={paginatedArtworks} />

@@ -19,7 +19,11 @@ const BlogPageClient = ({ allPosts, posts, activePage, limit, total }: BlogPageC
   const pathname = usePathname();
 
   return (
-    <SectionWrapper title="Blog" subtitle="" className="px-4 max-w-7xl mx-auto pb-[700px]">
+    <SectionWrapper
+      title="Blog"
+      subtitle=""
+      className="px-4 max-w-7xl mx-auto pb-[700px] mt-[100px]"
+    >
       <BlogFitler posts={allPosts} />
       <PostList posts={posts} />
       <Pagination
