@@ -94,7 +94,7 @@ const RootLayout = async ({ children }: { children: React.ReactNode }) => {
             <Header />
 
             {/* Main content fills remaining space */}
-            <main className="flex-1 w-full flex flex-col items-center justify-start mt-16">
+            <main className="flex-1 w-full min-h-[calc(100vh-64px)] flex flex-col items-center justify-start mt-16">
               <ScrollSlider>{children}</ScrollSlider>
             </main>
 
