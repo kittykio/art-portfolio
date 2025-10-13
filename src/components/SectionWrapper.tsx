@@ -33,7 +33,7 @@ const SectionWrapper = ({ title, subtitle, children, className }: Props) => {
         className={
           className ??
           // Default styles: ensures the section starts below fixed headers (`scroll-mt-24`), sets padding, margin, and handles header spacing.
-          `scroll-mt-24 flex flex-col my-20 px-4 w-full gap-8 `
+          `scroll-mt-48 md:scroll-mt-24 flex flex-col my-20 px-4 w-full gap-8 `
         }
       >
         {hasHeader ? (
