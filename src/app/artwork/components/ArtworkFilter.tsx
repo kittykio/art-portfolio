@@ -27,10 +27,18 @@ const ArtworkFilter = ({ artworks, onFilterChange }: Props) => {
     gsap.to(background.current, { opacity: isActive ? 0.6 : 0, duration: 0.3 });
   };
 
+  const extractYear = (dateString?: string): string => {
+    if (!dateString) return 'Unknown';
+    const match = dateString.match(/^\d{4}/);
+    return match ? match[0] : 'Unknown';
+  };
+
   // Precompute unique filter options
   const filterOptions = useMemo(
     () => ({
-      years: Array.from(new Set(artworks.map((a) => a.year))),
+      years: Array.from(
+        new Set(artworks.map((a) => extractYear(a.date)).filter((y) => y && y !== 'Unknown')),
+      ).sort((a, b) => Number(b) - Number(a)),
       categories: Array.from(new Set(artworks.map((a) => a.category))),
       medium: Array.from(new Set(artworks.map((a) => a.medium))),
       tags: Array.from(new Set(artworks.flatMap((a) => a.tags))),
@@ -67,8 +75,10 @@ const ArtworkFilter = ({ artworks, onFilterChange }: Props) => {
   useEffect(() => {
     const filtered = artworks.filter((artwork) => {
       const { years, categories, medium, tags } = filters;
+      const year = extractYear(artwork.date);
+
       return (
-        (years.size === 0 || years.has(artwork.year)) &&
+        (years.size === 0 || years.has(year)) &&
         (categories.size === 0 || categories.has(artwork.category)) &&
         (medium.size === 0 || medium.has(artwork.medium)) &&
         (tags.size === 0 || artwork.tags.some((t) => tags.has(t)))

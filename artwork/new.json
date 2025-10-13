@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
+    "date": "2025/10/10",
     "src": "/artwork/artwork-1.png",
     "title": "Dreamscape",
     "description": "This is a sample description of the artwork which I plan to where quotes at. This is a sample description of the artwork which I plan to write quotes at.",
     "medium": "Digital Painting",
-    "year": 2025,
     "category": "painting",
     "tags": ["colorful", "fantasy"]
   }
