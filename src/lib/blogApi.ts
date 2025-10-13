@@ -15,7 +15,7 @@ import rehypeExtractHeadings from '@/utils/rehypeExtractHeadings';
 import type { PostDetailType, PostType } from '@/types/PostType';
 import type { Heading } from '@/types/HeadingType';
 import 'highlight.js/styles/monokai.css';
-import '@/styles/monokai.css';
+import '@/styles/monokai.scss';
 import langDockerfile from 'highlight.js/lib/languages/dockerfile';
 import langTypeScript from 'highlight.js/lib/languages/typescript';
 import langPlainText from 'highlight.js/lib/languages/plaintext';

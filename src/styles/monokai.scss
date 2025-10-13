@@ -1,0 +1,76 @@
+// Monokai style - ported by Luigi Maselli - http://grigio.org
+.hljs {
+  background: #3e3e3e !important;
+  color: #dddddd;
+  padding: 30px !important;
+  font-family: var(--font-spacey);
+  letter-spacing: 1px;
+
+  &-tag {
+    color: white;
+  }
+
+  &-params {
+    color: #9466ff;
+  }
+
+  &-selector-tag,
+  &-literal,
+  &-strong,
+  &-name {
+    color: #ffc400;
+  }
+
+  &-code,
+  &-keyword {
+    color: #f2689f;
+  }
+
+  &-attr,
+  &-attribute,
+  &-symbol,
+  &-regexp,
+  &-link {
+    color: #33f5db;
+  }
+
+  &-string,
+  &-bullet,
+  &-subst,
+  &-title,
+  &-section,
+  &-emphasis,
+  &-type,
+  &-built_in,
+  &-selector-attr,
+  &-selector-pseudo,
+  &-addition,
+  &-variable,
+  &-template-tag,
+  &-template-variable {
+    color: var(--lemon);
+  }
+
+  &-title.class_,
+  &-class .hljs-title {
+    color: #c1a2ff;
+  }
+
+  &-comment,
+  &-quote,
+  &-deletion,
+  &-meta {
+    color: #717171;
+  }
+
+  &-keyword,
+  &-selector-tag,
+  &-literal,
+  &-doctag,
+  &-title,
+  &-section,
+  &-type,
+  &-selector-id {
+    font-weight: bold;
+  }
+}
