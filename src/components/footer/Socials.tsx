@@ -63,7 +63,7 @@ const Socials = () => {
       {/* Pinterest Icon - Wrapped in FramerMagnetic for the interactive effect. */}
       <FramerMagnetic>
         <Link
-          href="https://jp.pinterest.com/itskittykio/_created"
+          href="https://jp.pinterest.com/kittykio/_created"
           target="_blank"
           rel="noopener noreferrer"
         >
