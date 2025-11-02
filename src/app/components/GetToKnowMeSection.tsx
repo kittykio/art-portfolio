@@ -37,6 +37,7 @@ const cards: CardType[] = [
       'Detective Conan',
       'Kakegurui',
       'Demon Slayer',
+      'Spy Family',
     ],
   },
   {
