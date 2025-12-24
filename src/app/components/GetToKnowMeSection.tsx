@@ -27,8 +27,9 @@ const cards: CardType[] = [
     back: ['Coffee', 'Chocolate', 'Noodles', 'Cats', 'Nuts', 'Sushi'],
   },
   {
-    front: 'TV Series',
+    front: 'Movies & Shows',
     back: [
+      'Cruella',
       'Wednesday',
       'Harry Potter',
       'Fantastic Beasts',
