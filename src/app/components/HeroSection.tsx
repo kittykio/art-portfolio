@@ -29,7 +29,7 @@ const HeroSection = () => {
 
         <div className="flex flex-col items-center z-10 space-y-4">
           <m.h1 className="text-6xl lg:text-7xl font-bodyBold font-flashy text-dglg-900 tracking-widest">
-            <DisperseText>kiki です、よろしくね！</DisperseText>
+            <DisperseText>momo です、よろしくね！</DisperseText>
           </m.h1>
 
           <m.p

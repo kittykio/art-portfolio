@@ -28,7 +28,7 @@ import connectToMongoDB from '@/lib/db';
 const GA_TAG_ID = process.env.NEXT_PUBLIC_GA_ID || '';
 
 export const metadata: Metadata = {
-  title: 'Kitty Kio',
+  title: 'Momo Art',
   description: 'A personal blog and art portfolio site.',
   keywords: [
     'Artwork',
@@ -41,9 +41,9 @@ export const metadata: Metadata = {
     'Artistic Journey',
     'Art Hobbyist',
   ],
-  authors: [{ name: 'Kitty Kio', url: 'https://kittykio.com' }],
-  creator: 'Kitty Kio',
-  publisher: 'Kitty Kio',
+  authors: [{ name: 'Momo Art', url: 'https://momoart.vercel.app' }],
+  creator: 'Momo Art',
+  publisher: 'Momo Art',
   icons: {
     icon: [
       { url: '/favicon_io/favicon.ico', sizes: '48x48', type: 'image/x-icon' },
@@ -57,24 +57,24 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    title: 'Kitty Kio',
+    title: 'Momo Art',
     description: 'A personal blog and art portfolio site.',
     type: 'website',
-    url: 'https://kittykio.com',
+    url: 'https://momoart.vercel.app',
     images: [
       {
-        url: 'https://kittykio.com/og-image.png',
+        url: 'https://momoart.vercel.app/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Kitty Kio',
+        alt: 'Momo Art',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Kitty Kio',
+    title: 'Momo Art',
     description: 'A personal blog and art portfolio site.',
-    images: ['https://kittykio.com/og-image.png'],
+    images: ['https://momoart.vercel.app/og-image.png'],
   },
 };
 

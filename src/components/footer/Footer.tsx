@@ -31,7 +31,7 @@ const Footer = () => {
           {/* Brand logo and motto section */}
           <div className="flex flex-col gap-8 items-center text-center">
             <p className="text-6xl font-flashy text-dglg-900">
-              <DisperseText>kitty kio</DisperseText>
+              <DisperseText>momo art</DisperseText>
             </p>
 
             <p className="max-w-[40ch]">
@@ -45,13 +45,13 @@ const Footer = () => {
             {/* Buy Me a Coffee button */}
             <Magnetic>
               <Link
-                href="https://buymeacoffee.com/kittykio"
+                href="https://buymeacoffee.com/meowmomo"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-2 inline-flex items-center gap-2 px-5 py-2 rounded-full bg-dglg-700 font-playful text-2xl text-lgdg-300 hover:text-gray-100 font-bodyBold hover:bg-flame-500 transition-all shadow-md"
               >
                 <SiBuymeacoffee size={32} />
-                Buy Kiki a Coffee
+                Buy me a Coffee
               </Link>
             </Magnetic>
           </div>
@@ -63,7 +63,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <p className="mb-8 flex-none">©2025-present Kitty Kio. All rights reserved.</p>
+        <p className="mb-8 flex-none">©2025-present Momo Art. All rights reserved.</p>
       </motion.div>
     </section>
   );

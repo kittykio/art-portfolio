@@ -11,11 +11,7 @@ const Socials = () => {
       {/* Instagram Icon - Wrapped in FramerMagnetic for the interactive effect. */}
 
       <FramerMagnetic>
-        <Link
-          href="https://www.instagram.com/kittykiodraws/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <Link href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 50 50"
@@ -62,11 +58,7 @@ const Socials = () => {
 
       {/* Pinterest Icon - Wrapped in FramerMagnetic for the interactive effect. */}
       <FramerMagnetic>
-        <Link
-          href="https://jp.pinterest.com/kittykio/_created"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <Link href="https://jp.pinterest.com/" target="_blank" rel="noopener noreferrer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 45 55"

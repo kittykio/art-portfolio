@@ -15,7 +15,7 @@ const General = () => {
         </li>
         <li className="hover:text-flame-500">
           <Magnetic>
-            <Link href="/#get-to-know-me">About Kitty</Link>
+            <Link href="/#get-to-know-me">About Momo</Link>
           </Magnetic>
         </li>
 
